@@ -1,0 +1,11 @@
+parent: classic
+name: child_theme
+display_name: Custom Child Theme
+version: 1.0
+assets:
+  use_parent_assets: true
+  css:
+    all:
+      - id: child_theme_style
+        path: assets/css/style.css
+        priority: 1000
